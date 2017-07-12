@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Lotto Notification</string>
+
+    <!-- Nav drawer -->
+    <string name="nav_item_recent">Recent Draws</string>
+    <string name="nav_item_notificaiton">Save Ticket</string>
+    <string name="nav_item_saved_tickets">Saved Tickets</string>
+    <string name="nav_ticket_results">Ticket results</string>
+    <string name="search_title">Search title</string>
+    <string name="search_hint">Search hint</string>
+    <string name="search">Search</string>
+    <!-- Nav drawer -->
+
+    <string name="insert_lotto_numbers">Please scan your lotto numbers only and confirm once completed.</string>
+    <string name="scan">Scan</string>
+    <string name="confirm_numbers">Confim numbers</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_clear">Clear</string>
+    <string name="lotto_numbers">Numbers</string>
+    <string name="bonus_number">Bonus</string>
+
+
+    <!-- Viewpager lottos-->
+
+    <string-array name="pager_items">
+        <item>Aus Oz Lotto</item>
+        <item>Aus Powerball</item>
+        <item>Aus Lotto</item>
+        <item>British Lotto</item>
+        <item>Canadian Lotto</item>
+        <item>Euro Millions</item>
+        <item>Euro Jackpot</item>
+        <item>French Lotto</item>
+        <item>German Lotto</item>
+        <item>Irish Lotto</item>
+        <item>Spanish Lotto</item>
+        <item>Usa Mega Millions</item>
+        <item>Usa Powerball</item>
+    </string-array>
+
+
+    <!-- Viewpager lottos-->
+
+
+    <!-- app strings -->
+    <string name="draw_date">Draw Date:</string>
+    <string name="next_draw_date">Next draw date:</string>
+    <string name="numbers">Winning numbers:</string>
+    <string name="bonus_numbers">Bonus numbers:</string>
+    <string name="jackpot">Jackpot:</string>
+    <string name="winners">Total winners:</string>
+    <string name="next_draw">Next draw:</string>
+    <string name="active_alarms">Alarms</string>
+    <string name="select">Select</string>
+    <string name="select_lotto_numbers">lotto numbers</string>
+    <string name="select_bonus_numbers">bonus numbers</string>
+    <string name="select_bonus_number">bonus number</string>
+    <string name="and">and</string>
+    <string name="clear">Clear</string>
+    <string name="quick_pick">Quick Pick</string>
+    <string name="select_lotto">Select a lottery.</string>
+    <string name="sure_clear">Are you sure you want to clear?</string>
+    <string name="sure">Sure</string>
+    <string name="highest_bonusnumber">The highest bonus number is</string>
+    <string name="bonus_error">Bonus numbers for this lottery should not be more than %1$d</string>
+    <string name="save_error"> You need a minimum of %1$d lotto numbers. </string>
+    <string name="saved_lotto">Lottery numbers were saved successfully for %1$s</string>
+    <string name="saved_failed_lotto">These lottery numbers were already saved for %1$s</string>
+    <string name="saved_notify">Lotto nofitcations are set for all saved lotteries.</string>
+    <string name="non_saved">There are no saved tickets for this lotto.</string>
+    <string name="no_macthing_numbers">There are no mtaching numbers for this draw.</string>
+    <string name="user_saved_numbers">Saved lottery numbers</string>
+    <string name="draw_numbers">Lottery draw numbers</string>
+    <string name="no_matching_numbers">There are no matching numbers.</string>
+    <string name="loading_lotto_results">Loading results...</string>
+    <string name="lotto_loading">Lottery notification is loading results..</string>
+    <!-- app strings -->
+
+</resources>

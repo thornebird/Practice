@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/picture_frame"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <!--  <TextView
+              android:id="@+id/tv_lottotitle"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal|center_vertical"
+               android:padding="3dp"
+              android:text="ffffffffff"
+              android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+                     <TextView
+                     android:id="@+id/tv_description"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal|center_vertical"
+                     android:padding="3dp"
+                     android:textAppearance="?android:textAppearanceMedium"/>
+                     -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/im_lotto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:padding="3dp"
+                android:src="@drawable/austraflag" />
+
+            <TextView
+                android:id="@+id/tv_lottodate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/im_lotto"
+                android:padding="3dp"
+                android:text="@string/draw_date"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RelativeLayout>
+
+
+
+     <!--   <TextView
+            android:id="@+id/tv_lotto_numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:padding="3dp"
+            android:text="@string/numbers"
+            android:textAppearance="?android:textAppearanceMedium" />-->
+
+       <!-- <TextView
+            android:id="@+id/tv_bonus_numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:padding="3dp"
+            android:text="@string/bonus_numbers"
+            android:textAppearance="?android:textAppearanceMedium" />-->
+
+        <TextView
+            android:id="@+id/tv_jackpot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="3dp"
+            android:text="@string/jackpot"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+
+        <TextView
+            android:id="@+id/tv_winners"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="3dp"
+            android:text="@string/winners"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </LinearLayout>
+
+    <practice.practice.UI.LottoBallLayout
+        android:id="@+id/layout_balls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <practice.practice.UI.LottoBall
+            android:id="@+id/ball_one"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="invisible"
+            app:circleLabel="test" />
+
+        <practice.practice.UI.LottoBall
+            android:id="@+id/ball_two"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="invisible"
+            app:circleLabel="test" />
+
+        <practice.practice.UI.LottoBall
+            android:id="@+id/ball_three"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="invisible"
+            app:circleLabel="test" />
+
+
+        <practice.practice.UI.LottoBall
+            android:id="@+id/ball_four"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="invisible"
+            app:circleLabel="test" />
+
+        <practice.practice.UI.LottoBall
+            android:id="@+id/ball_five"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="invisible"
+            app:circleLabel="test" />
+
+        <practice.practice.UI.LottoBall
+            android:id="@+id/ball_six"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="invisible"
+            app:circleLabel="test" />
+
+        <practice.practice.UI.LottoBall
+            android:id="@+id/ball_seven"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="invisible"
+            app:circleLabel="test" />
+
+
+        <practice.practice.UI.LottoBall
+            android:id="@+id/bonus_ball_one"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="invisible"
+            app:circleLabel="test" />
+
+        <practice.practice.UI.LottoBall
+            android:id="@+id/bonus_ball_two"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="invisible"
+            app:circleLabel="test" />
+
+    </practice.practice.UI.LottoBallLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <declare-styleable name="LottoBall">
+                <attr name="circleColor" format="color" />
+                <attr name="circleLabel" format="string"></attr>
+                <attr name="labelColor" format="color"></attr>
+                <attr name="isBonus"    format="boolean"></attr>
+        </declare-styleable>
+
+
+
+
+
+    <!--    <declare-styleable name="CustomViewBall">
+            <attr name="color" format="color"/>
+            <attr name="text" format="string"/>
+            <attr name="text_color" format="color"/>
+        </declare-styleable>-->
+        <!-- attributes for other views -->
+
+</resources>
